@@ -5,7 +5,7 @@ header{
     margin-bottom: 30px;
 }
 body{
-    background-color: turquoise;
+    background-color: rgb(28, 17, 184);
     color:brown;
     font-family:cursive
 }
@@ -18,7 +18,7 @@ h2 { color:chartreuse}
 .especial {
   
   color: rgb(126, 16, 107);  
-  font-size: 20px;    /* Cambia el color del texto */
+  font-size: 20px;    
   font-style:italic;
 }
 
@@ -29,7 +29,7 @@ h1.naranja { color: blue;
     font-size: 45px;
     text-transform:uppercase;
     text-decoration:underline ;
-    text-shadow: 1px 3px 2px rgba(84, 13, 225, 1),
+    text-shadow: 1px 3px 2px rgb(65, 47, 26),
              -13px -11px 14px rgba(56, 108, 73, 1),
              -15px 3px 21px rgba(81, 255, 98, 1);
     
@@ -65,12 +65,17 @@ p {
   color: #ffcc00;
 }
 .box {
-  margin: 20px; /* espacio por fuera del elemento */
-  padding: 15px; /* espacio hacia adentro del borde */
-  border: 2px solid gold; /* borde de 2px color gris oscuro */
-  box-sizing: border-box; /* incluye borde y padding en el tamaño total */
+  margin: 20px;
+  padding: 15px; 
+  border: 2px solid gold; 
+  box-sizing: border-box; 
   width: 200px;
   height: 130px;
   background-color: #ac782b;
 }
 
+.icono {
+  width: 200px;
+  height: 200;
+   
+}
