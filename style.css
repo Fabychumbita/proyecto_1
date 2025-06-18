@@ -41,8 +41,8 @@ h1.naranja { color: blue;
 
 }
 p {
-  color: coral;
-  background-color: rgb(245, 188, 224)
+  color: rgb(0, 0, 0);
+  background-color: rgb(229, 190, 190)
 }
 #special{
   color:bisque;
@@ -77,5 +77,27 @@ p {
 .icono {
   width: 200px;
   height: 200;
-   
+}
+
+.bruni {
+  width : 50%;
+  height: auto;
+}
+
+
+.caja {
+  border: 2px solid #b71ac5;   /* Borde de la caja */
+  padding: 10px;            /* Espacio interno */
+  margin: 10px;             /* Espacio con otras cajas */
+  background-color: #f5f5f5; /* Fondo claro */
+  display: inline-block;    /* Para que varias cajas se alineen al lado */
+  border-radius: 10px;      /* Bordes redondeados (opcional) */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Sombra (opcional) */
+}
+
+.caja img {
+  width: 100%;              /* Imagen ocupa todo el ancho de la caja */
+  max-width: 200px;         /* Máximo ancho */
+  height: auto;
+  display: block;
 }
